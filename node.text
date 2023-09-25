@@ -1,0 +1,8 @@
+Prvo sto pisemo u terminal je :
+npm init
+npm install gulp gulp-sass sass --save-dev
+
+
+Prekidanje kompajla radimo pomocu CTRL + C
+
+Takodje kada stavimo " _ " na neki fajl on ce biti ignorisan tokom sledecih kompajliranja 

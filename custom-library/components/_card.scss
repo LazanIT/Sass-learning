@@ -1,0 +1,54 @@
+/*
+ Kod klasicnog css-a kada zelimo da uzmemo u jedan element unutar drugog radimo na ovaj nacin :
+ .card .card-title{ 
+ }
+
+ Dok kod scss-a to radimo na ovaj nacin :
+
+ .card { 
+    
+    Neki style
+
+    .card-title{
+
+    }
+ }
+
+ Prednosti ovoga su sto kada sad zelimo da tagujemo nesto unutar card-title, ne moramo da opet pisemo sve ispocetka
+ Nego to sto zelimo da tagujemo unutar card-title samo dodamo nakon stila
+
+*/
+
+// Da bi koristili math package ( Sa kojim mozemo deliti ili mnoziti postojece varijable ) :
+
+@use "sass:math";
+//primer:
+.card {
+  display: block;
+  padding: $base-padding;
+  border: $base-border-thickness solid #ddd;
+  box-shadow: $base-box-shadow;
+  // Koristi se kao klasicna math funkcija u nekom programskom jeziku
+  border-radius: math.div($base-border-radius, 4);
+
+  .card-title {
+    font-size: $font-size-lg;
+    padding-bottom: $base-padding;
+    font-weight: bold;
+  }
+
+  .card-body {
+    font-size: $base-font-size;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Kako bi debug-ovali sass koristimo funkciju debug
+// Ono sto napisemo se pise u terminal
+// Primeri :
+@debug "Hello";
+@debug math.div(10, 3);
+@debug math.floor(2.6); // Zaokruzivanje broja na integer

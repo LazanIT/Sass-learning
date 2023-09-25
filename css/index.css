@@ -1,0 +1,88 @@
+/*
+ 1: Variables & Functions
+ 2: Base ( Skelet ) & Layout ( Grid )
+ 3: Colors
+ 4: Components ( button, card, navbar )
+ 5: Utilities ( margin, padding, opacity )
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.test-btn {
+  background-color: #9900ff;
+}
+
+/* reset styles */
+* {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 ul {
+  text-decoration: underline;
+}
+
+h5 p {
+  color: black;
+}
+
+/*
+ Kod klasicnog css-a kada zelimo da uzmemo u jedan element unutar drugog radimo na ovaj nacin :
+ .card .card-title{ 
+ }
+
+ Dok kod scss-a to radimo na ovaj nacin :
+
+ .card { 
+
+    Neki style
+
+    .card-title{
+
+    }
+ }
+
+ Prednosti ovoga su sto kada sad zelimo da tagujemo nesto unutar card-title, ne moramo da opet pisemo sve ispocetka
+ Nego to sto zelimo da tagujemo unutar card-title samo dodamo nakon stila
+
+*/
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.card .card-title {
+  font-size: 1.5rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
+}

@@ -1,0 +1,65 @@
+// Variables :
+// We define variables with " $ " sign
+
+// Theme colors variables :
+
+$primary: #316dee;
+$secondary: rgb(24, 243, 24);
+$error: rgb(255, 13, 13);
+$info: rgb(255, 255, 59);
+
+// Color palette :
+// Maps :
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "error": $error,
+  "info": $info,
+  "blue": #1919e6,
+  "red": #e61919,
+  "yellow": #e6e619,
+  "green": #19e635,
+  "orange": #ffa600,
+  "purple": #9900ff,
+  "gray": #808080,
+  "black": black,
+  "white": white,
+);
+// Da bi koristili mape u css-u :
+.test-btn {
+  background-color: map-get($map: $colors, $key: "purple");
+}
+
+// Za dobijanje value iz map-e :
+@debug map-get($map: $colors, $key: "purple");
+@debug map-has-key($map: $colors, $key: "red"); // Da li kljuc postoji
+@debug map-has-key($map: $colors, $key: "$test");
+@debug map-remove($map: $colors, $key: "primary"); // Da izbrisemo nesto iz mape
+@debug map-merge(
+  $map1: $colors,
+  $map2: (
+    "pink": #ffc0cb,
+  )
+); // Da dodamo nesto u mapu, ili da spojimo dve mape
+// Spacing variables:
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// Borders variables :
+
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// Box
+
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+// Font-size
+
+$base-font-size: 1rem;
+
+// Math function in sass
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;

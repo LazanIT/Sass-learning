@@ -1,0 +1,15 @@
+// Svaki fajl koji pocinje sa " _ "  bice ignorisan tokom kompajliranja sledeceg gulp-a
+// Sass kompajler radi na principu da cita od gore ka dole
+// Tako da ako bi promenili redosled @import-a ne bi mogli citati varijable u ostalim fajlovima
+// Import other scss
+// Redosled po kom se importuju drugi fajlovi
+/*
+ 1: Variables & Functions
+ 2: Base ( Skelet ) & Layout ( Grid )
+ 3: Colors
+ 4: Components ( button, card, navbar )
+ 5: Utilities ( margin, padding, opacity )
+*/
+@import "variables";
+@import "base";
+@import "components/card";
