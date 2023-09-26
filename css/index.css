@@ -96,12 +96,84 @@ h5 p {
   background-color: #316dee;
 }
 
+.text-primary-light-1 {
+  color: #467cf0;
+}
+
+.text-primary-light-2 {
+  color: #5a8af1;
+}
+
+.text-primary-light-3 {
+  color: #6f99f3;
+}
+
+.text-primary-light-4 {
+  color: #83a7f5;
+}
+
+.text-primary-light-5 {
+  color: #98b6f7;
+}
+
+.text-primary-light-6 {
+  color: #adc5f8;
+}
+
+.text-primary-light-7 {
+  color: #c1d3fa;
+}
+
+.text-primary-light-8 {
+  color: #d6e2fc;
+}
+
+.text-primary-light-9 {
+  color: #eaf0fd;
+}
+
 .text-secondary {
   color: rgb(24, 243, 24);
 }
 
 .bg-secondary {
   background-color: rgb(24, 243, 24);
+}
+
+.text-secondary-light-1 {
+  color: #2ff42f;
+}
+
+.text-secondary-light-2 {
+  color: #46f546;
+}
+
+.text-secondary-light-3 {
+  color: #5df75d;
+}
+
+.text-secondary-light-4 {
+  color: #74f874;
+}
+
+.text-secondary-light-5 {
+  color: #8cf98c;
+}
+
+.text-secondary-light-6 {
+  color: #a3faa3;
+}
+
+.text-secondary-light-7 {
+  color: #bafbba;
+}
+
+.text-secondary-light-8 {
+  color: #d1fdd1;
+}
+
+.text-secondary-light-9 {
+  color: #e8fee8;
 }
 
 .text-error {
@@ -112,12 +184,84 @@ h5 p {
   background-color: rgb(255, 13, 13);
 }
 
+.text-error-light-1 {
+  color: #ff2525;
+}
+
+.text-error-light-2 {
+  color: #ff3d3d;
+}
+
+.text-error-light-3 {
+  color: #ff5656;
+}
+
+.text-error-light-4 {
+  color: #ff6e6e;
+}
+
+.text-error-light-5 {
+  color: #ff8686;
+}
+
+.text-error-light-6 {
+  color: #ff9e9e;
+}
+
+.text-error-light-7 {
+  color: #ffb6b6;
+}
+
+.text-error-light-8 {
+  color: #ffcfcf;
+}
+
+.text-error-light-9 {
+  color: #ffe7e7;
+}
+
 .text-info {
   color: rgb(255, 255, 59);
 }
 
 .bg-info {
   background-color: rgb(255, 255, 59);
+}
+
+.text-info-light-1 {
+  color: #ffff4f;
+}
+
+.text-info-light-2 {
+  color: #ffff62;
+}
+
+.text-info-light-3 {
+  color: #ffff76;
+}
+
+.text-info-light-4 {
+  color: #ffff89;
+}
+
+.text-info-light-5 {
+  color: #ffff9d;
+}
+
+.text-info-light-6 {
+  color: #ffffb1;
+}
+
+.text-info-light-7 {
+  color: #ffffc4;
+}
+
+.text-info-light-8 {
+  color: #ffffd8;
+}
+
+.text-info-light-9 {
+  color: #ffffeb;
 }
 
 .text-blue {
@@ -128,12 +272,84 @@ h5 p {
   background-color: #1919e6;
 }
 
+.text-blue-light-1 {
+  color: #3030e9;
+}
+
+.text-blue-light-2 {
+  color: #4747eb;
+}
+
+.text-blue-light-3 {
+  color: #5e5eee;
+}
+
+.text-blue-light-4 {
+  color: #7575f0;
+}
+
+.text-blue-light-5 {
+  color: #8c8cf3;
+}
+
+.text-blue-light-6 {
+  color: #a3a3f5;
+}
+
+.text-blue-light-7 {
+  color: #babaf8;
+}
+
+.text-blue-light-8 {
+  color: #d1d1fa;
+}
+
+.text-blue-light-9 {
+  color: #e8e8fd;
+}
+
 .text-red {
   color: #e61919;
 }
 
 .bg-red {
   background-color: #e61919;
+}
+
+.text-red-light-1 {
+  color: #e93030;
+}
+
+.text-red-light-2 {
+  color: #eb4747;
+}
+
+.text-red-light-3 {
+  color: #ee5e5e;
+}
+
+.text-red-light-4 {
+  color: #f07575;
+}
+
+.text-red-light-5 {
+  color: #f38c8c;
+}
+
+.text-red-light-6 {
+  color: #f5a3a3;
+}
+
+.text-red-light-7 {
+  color: #f8baba;
+}
+
+.text-red-light-8 {
+  color: #fad1d1;
+}
+
+.text-red-light-9 {
+  color: #fde8e8;
 }
 
 .text-yellow {
@@ -144,12 +360,84 @@ h5 p {
   background-color: #e6e619;
 }
 
+.text-yellow-light-1 {
+  color: #e9e930;
+}
+
+.text-yellow-light-2 {
+  color: #ebeb47;
+}
+
+.text-yellow-light-3 {
+  color: #eeee5e;
+}
+
+.text-yellow-light-4 {
+  color: #f0f075;
+}
+
+.text-yellow-light-5 {
+  color: #f3f38c;
+}
+
+.text-yellow-light-6 {
+  color: #f5f5a3;
+}
+
+.text-yellow-light-7 {
+  color: #f8f8ba;
+}
+
+.text-yellow-light-8 {
+  color: #fafad1;
+}
+
+.text-yellow-light-9 {
+  color: #fdfde8;
+}
+
 .text-green {
   color: #19e635;
 }
 
 .bg-green {
   background-color: #19e635;
+}
+
+.text-green-light-1 {
+  color: #30e949;
+}
+
+.text-green-light-2 {
+  color: #47eb5d;
+}
+
+.text-green-light-3 {
+  color: #5eee72;
+}
+
+.text-green-light-4 {
+  color: #75f086;
+}
+
+.text-green-light-5 {
+  color: #8cf39a;
+}
+
+.text-green-light-6 {
+  color: #a3f5ae;
+}
+
+.text-green-light-7 {
+  color: #baf8c2;
+}
+
+.text-green-light-8 {
+  color: #d1fad7;
+}
+
+.text-green-light-9 {
+  color: #e8fdeb;
 }
 
 .text-orange {
@@ -160,12 +448,84 @@ h5 p {
   background-color: #ffa600;
 }
 
+.text-orange-light-1 {
+  color: #ffaf1a;
+}
+
+.text-orange-light-2 {
+  color: #ffb833;
+}
+
+.text-orange-light-3 {
+  color: #ffc14d;
+}
+
+.text-orange-light-4 {
+  color: #ffca66;
+}
+
+.text-orange-light-5 {
+  color: #ffd380;
+}
+
+.text-orange-light-6 {
+  color: #ffdb99;
+}
+
+.text-orange-light-7 {
+  color: #ffe4b3;
+}
+
+.text-orange-light-8 {
+  color: #ffedcc;
+}
+
+.text-orange-light-9 {
+  color: #fff6e6;
+}
+
 .text-purple {
   color: #9900ff;
 }
 
 .bg-purple {
   background-color: #9900ff;
+}
+
+.text-purple-light-1 {
+  color: #a31aff;
+}
+
+.text-purple-light-2 {
+  color: #ad33ff;
+}
+
+.text-purple-light-3 {
+  color: #b84dff;
+}
+
+.text-purple-light-4 {
+  color: #c266ff;
+}
+
+.text-purple-light-5 {
+  color: #cc80ff;
+}
+
+.text-purple-light-6 {
+  color: #d699ff;
+}
+
+.text-purple-light-7 {
+  color: #e0b3ff;
+}
+
+.text-purple-light-8 {
+  color: #ebccff;
+}
+
+.text-purple-light-9 {
+  color: #f5e6ff;
 }
 
 .text-gray {
@@ -176,6 +536,42 @@ h5 p {
   background-color: #808080;
 }
 
+.text-gray-light-1 {
+  color: #8d8d8d;
+}
+
+.text-gray-light-2 {
+  color: #999999;
+}
+
+.text-gray-light-3 {
+  color: #a6a6a6;
+}
+
+.text-gray-light-4 {
+  color: #b3b3b3;
+}
+
+.text-gray-light-5 {
+  color: silver;
+}
+
+.text-gray-light-6 {
+  color: #cccccc;
+}
+
+.text-gray-light-7 {
+  color: #d9d9d9;
+}
+
+.text-gray-light-8 {
+  color: #e6e6e6;
+}
+
+.text-gray-light-9 {
+  color: #f2f2f2;
+}
+
 .text-black {
   color: black;
 }
@@ -184,10 +580,82 @@ h5 p {
   background-color: black;
 }
 
+.text-black-light-1 {
+  color: #1a1a1a;
+}
+
+.text-black-light-2 {
+  color: #333333;
+}
+
+.text-black-light-3 {
+  color: #4d4d4d;
+}
+
+.text-black-light-4 {
+  color: #666666;
+}
+
+.text-black-light-5 {
+  color: gray;
+}
+
+.text-black-light-6 {
+  color: #999999;
+}
+
+.text-black-light-7 {
+  color: #b3b3b3;
+}
+
+.text-black-light-8 {
+  color: #cccccc;
+}
+
+.text-black-light-9 {
+  color: #e6e6e6;
+}
+
 .text-white {
   color: white;
 }
 
 .bg-white {
   background-color: white;
+}
+
+.text-white-light-1 {
+  color: white;
+}
+
+.text-white-light-2 {
+  color: white;
+}
+
+.text-white-light-3 {
+  color: white;
+}
+
+.text-white-light-4 {
+  color: white;
+}
+
+.text-white-light-5 {
+  color: white;
+}
+
+.text-white-light-6 {
+  color: white;
+}
+
+.text-white-light-7 {
+  color: white;
+}
+
+.text-white-light-8 {
+  color: white;
+}
+
+.text-white-light-9 {
+  color: white;
 }
