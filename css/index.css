@@ -87,3 +87,107 @@ h5 p {
 .card .card-body a {
   text-decoration: underline;
 }
+
+.text-primary {
+  color: #316dee;
+}
+
+.bg-primary {
+  background-color: #316dee;
+}
+
+.text-secondary {
+  color: rgb(24, 243, 24);
+}
+
+.bg-secondary {
+  background-color: rgb(24, 243, 24);
+}
+
+.text-error {
+  color: rgb(255, 13, 13);
+}
+
+.bg-error {
+  background-color: rgb(255, 13, 13);
+}
+
+.text-info {
+  color: rgb(255, 255, 59);
+}
+
+.bg-info {
+  background-color: rgb(255, 255, 59);
+}
+
+.text-blue {
+  color: #1919e6;
+}
+
+.bg-blue {
+  background-color: #1919e6;
+}
+
+.text-red {
+  color: #e61919;
+}
+
+.bg-red {
+  background-color: #e61919;
+}
+
+.text-yellow {
+  color: #e6e619;
+}
+
+.bg-yellow {
+  background-color: #e6e619;
+}
+
+.text-green {
+  color: #19e635;
+}
+
+.bg-green {
+  background-color: #19e635;
+}
+
+.text-orange {
+  color: #ffa600;
+}
+
+.bg-orange {
+  background-color: #ffa600;
+}
+
+.text-purple {
+  color: #9900ff;
+}
+
+.bg-purple {
+  background-color: #9900ff;
+}
+
+.text-gray {
+  color: #808080;
+}
+
+.bg-gray {
+  background-color: #808080;
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
