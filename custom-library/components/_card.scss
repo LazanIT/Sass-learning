@@ -46,6 +46,10 @@
     }
   }
 }
+.colors {
+  margin: $base-margin;
+  padding: $base-padding;
+}
 
 // Kako bi debug-ovali sass koristimo funkciju debug
 // Ono sto napisemo se pise u terminal
