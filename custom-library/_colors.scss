@@ -1,0 +1,5 @@
+// Da bi kruzili kroz sve boje poput petlje koristimo :
+// Key&value jedino mozemo koristiti unutar petlje, jer su lokalne a ne globalne varijable
+
+@each $key, $val in $colors {
+}
