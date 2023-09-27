@@ -32,7 +32,7 @@
       .text-#{$key}-dark-#{$i} {
         color: mix(black, $val, $i * 10);
       }
-      .text-hover-#{$key}-light-#{$i} {
+      .text-hover-#{$key}-dark-#{$i} {
         &:hover {
           color: mix(black, $val, $i * 10);
         }
