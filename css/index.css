@@ -93,6 +93,16 @@ h5 p {
   padding: 0.75rem;
 }
 
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #e2e2e2;
+}
+
 .btn-primary {
   text-decoration: none;
   cursor: pointer;
@@ -100,6 +110,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: #316dee;
 }
 
@@ -121,6 +132,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: rgb(24, 243, 24);
 }
 
@@ -142,6 +154,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: rgb(255, 13, 13);
 }
 
@@ -163,6 +176,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: rgb(255, 255, 59);
 }
 
@@ -184,6 +198,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: #1919e6;
 }
 
@@ -205,6 +220,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: #e61919;
 }
 
@@ -226,6 +242,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: #e6e619;
 }
 
@@ -247,6 +264,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: #19e635;
 }
 
@@ -268,6 +286,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: #ffa600;
 }
 
@@ -289,6 +308,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: #9900ff;
 }
 
@@ -310,6 +330,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: #808080;
 }
 
@@ -331,6 +352,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: black;
 }
 
@@ -352,6 +374,7 @@ h5 p {
   border: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
+  background-color: #e2e2e2;
   background-color: white;
 }
 
