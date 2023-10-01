@@ -10,7 +10,9 @@
  4: Components ( button, card, navbar )
  5: Utilities ( margin, padding, opacity )
 */
+@import "functions";
 @import "variables";
+
 @import "base";
 @import "components/card";
 @import "components/button";
