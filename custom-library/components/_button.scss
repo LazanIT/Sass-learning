@@ -14,12 +14,16 @@
 
 @each $key, $val in $colors {
   .btn-#{$key} {
-    @include btn();
-    background-color: $val;
+    @include btn($val);
+    &:hover {
+      background-color: lighten($val, 5);
+    }
   }
-  .btn-outline-#{$key} {
+  .btn-outlined-#{$key} {
     @include btn(#fff);
-
     border: $base-border-thickness solid $val;
+    &:hover {
+      background-color: $val;
+    }
   }
 }
