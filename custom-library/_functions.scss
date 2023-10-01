@@ -1,3 +1,6 @@
 // Za kreiranje funkcija koristimo ::after
 @function light-comp($color) {
+  $complement: complement($color);
+  $light-complement: lighten($complement);
+  @return;
 }
