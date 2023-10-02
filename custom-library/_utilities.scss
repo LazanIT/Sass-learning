@@ -6,11 +6,22 @@ $utilities: (
     "prefix": "p",
     "values": (
       "0": 0,
-      "1": $base-padding * 2,
-      "2": $base-padding * 4,
-      "3": $base-padding * 6,
-      "4": $base-padding * 8,
-      "5": $base-padding * 10,
+      "1": $base-padding,
+      "2": $base-padding * 2,
+      "3": $base-padding * 4,
+      "4": $base-padding * 6,
+      "5": $base-padding * 8,
+    ),
+    "padding-left": (
+      "prefix": "pl",
+      "values": (
+        "0": 0,
+        "1": $base-padding,
+        "2": $base-padding * 2,
+        "3": $base-padding * 4,
+        "4": $base-padding * 6,
+        "5": $base-padding * 8,
+      ),
     ),
   ),
 );
