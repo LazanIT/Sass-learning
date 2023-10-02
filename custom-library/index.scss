@@ -10,10 +10,19 @@
  4: Components ( button, card, navbar )
  5: Utilities ( margin, padding, opacity )
 */
+// variables & functions
 @import "functions";
 @import "variables";
 
+// base & layout
 @import "base";
+
+// colors
+@import "colors";
+
+// components (button, card, navbar etc)
 @import "components/card";
 @import "components/button";
-@import "colors";
+
+// utilities (margin, padding, opacity, etc)
+@import "utilities";

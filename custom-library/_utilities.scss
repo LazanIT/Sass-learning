@@ -1,0 +1,8 @@
+@use "sass: math";
+
+$utilities: (
+  "padding": (
+    "prefix": "p",
+    // Pomocu ovoga dajemo prefix kako cemo pozivati posle tu klasu, primer boostrap ( p-1 = padding )
+  ),
+);
