@@ -1,8 +1,6 @@
-@use "sass:math" as math;
-
+@use "sass:math";
 $utilities: (
   "padding": (
-    // Pomocu ovoga dajemo prefix kako cemo pozivati posle tu klasu, primer boostrap ( p-1 = padding )
     "prefix": "p",
     "values": (
       "0": 0,
@@ -12,16 +10,29 @@ $utilities: (
       "4": $base-padding * 6,
       "5": $base-padding * 8,
     ),
-    "padding-left": (
-      "prefix": "pl",
-      "values": (
-        "0": 0,
-        "1": $base-padding,
-        "2": $base-padding * 2,
-        "3": $base-padding * 4,
-        "4": $base-padding * 6,
-        "5": $base-padding * 8,
-      ),
+  ),
+  "padding-left": (
+    "prefix": "pl",
+    "values": (
+      "0": 0,
+      // Dodajte default vrednost za padding-left
+      "1": $base-padding,
+      "2": $base-padding * 2,
+      "3": $base-padding * 4,
+      "4": $base-padding * 6,
+      "5": $base-padding * 8,
     ),
   ),
 );
+
+// Generiši utility klase
+@each $property, $map in $utilities {
+  $prefix: map-get($map, "prefix");
+  $values: map-get($map, "values");
+
+  @each $k, $v in $values {
+    .#{$prefix}-#{$k} {
+      #{$property}: $v;
+    }
+  }
+}
