@@ -1,8 +1,16 @@
-@use "sass: math";
+@use "sass:math" as math;
 
 $utilities: (
   "padding": (
-    "prefix": "p",
     // Pomocu ovoga dajemo prefix kako cemo pozivati posle tu klasu, primer boostrap ( p-1 = padding )
+    "prefix": "p",
+    "values": (
+      "0": 0,
+      "1": $base-padding * 2,
+      "2": $base-padding * 4,
+      "3": $base-padding * 6,
+      "4": $base-padding * 8,
+      "5": $base-padding * 10,
+    ),
   ),
 );
