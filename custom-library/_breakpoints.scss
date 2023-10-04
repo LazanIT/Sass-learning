@@ -8,29 +8,53 @@ $breakpoints: (
 
 @mixin xs {
   @media (min-width: map-get($breakpoints, "xs")) {
-    content: ;
+    @content;
   }
 }
 @mixin sm {
   @media (min-width: map-get($breakpoints, "sm")) {
-    content: ;
+    @content;
   }
 }
 @mixin md {
   @media (min-width: map-get($breakpoints, "md")) {
-    content: ;
+    @content;
   }
 }
 @mixin lg {
   @media (min-width: map-get($breakpoints, "lg")) {
-    content: ;
+    @content;
   }
 }
 @mixin xl {
   @media (min-width: map-get($breakpoints, "xl")) {
-    content: ;
+    @content;
   }
 }
 
 @mixin breakpoints($bp: 0) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+.responsive-test {
+  @include xs {
+    background-color: red;
+  }
+  @include sm {
+    background-color: blueviolet;
+  }
+  @include md {
+    background-color: blue;
+  }
+  @include lg {
+    background-color: green;
+  }
+  @include xl {
+    background-color: yellow;
+  }
+  @include breakpoints(1400px) {
+    background-color: palevioletred;
+  }
 }
