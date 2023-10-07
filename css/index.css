@@ -92,6 +92,26 @@ h5 p {
   flex-flow: row wrap;
 }
 
+.gap-0 > * {
+  padding: 0;
+}
+
+.gap-1 > * {
+  padding: 10px;
+}
+
+.gap-2 > * {
+  padding: 20px;
+}
+
+.gap-3 > * {
+  padding: 30px;
+}
+
+.gap-4 > * {
+  padding: 40px;
+}
+
 @media (min-width: 0) {
   .col-1-xs {
     box-sizing: border-box;
