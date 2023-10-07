@@ -29,6 +29,10 @@ $grid-gaps: (
   .gap-#{$key} > * {
     padding: $val;
   }
+  .gap-#{$key} {
+    margin-left: -$val;
+    margin-right: -$val;
+  }
 }
 // col classes
 @include xs {
