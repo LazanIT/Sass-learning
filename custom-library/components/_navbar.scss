@@ -6,11 +6,24 @@
   box-sizing: border-box;
 }
 
+// Pomocu % i dalje mozemo da koristimo tu klasu, ali nece biti kompajlovana u css-u
+
 .navbar {
   @extend %flex-layout;
   padding: $base-padding $base-padding * 2;
   box-shadow: $base-box-shadow;
   .site-title {
     font-size: $font-size-lg;
+  }
+
+  .container {
+    @extend %flex-layout;
+  }
+}
+
+@each $key, $val in $colors {
+  .navbar-#{$key} {
+    @extend .navbar;
+    background-color: $val;
   }
 }
