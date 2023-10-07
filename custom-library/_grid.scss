@@ -8,7 +8,7 @@ $grid-gaps: (
   "3": 30px,
   "4": 40px,
 );
-
+$layout-values: flex-start, flex-end, center, space-between, space-around;
 // base layout classes
 .container {
   width: 100%;
@@ -34,6 +34,15 @@ $grid-gaps: (
     margin-right: -$val;
   }
 }
+
+// justify content content
+
+@each $key in $layout-values {
+  .justify-#{$key} {
+    justify-content: $key;
+  }
+}
+
 // col classes
 @include xs {
   @for $i from 1 through $grid-columns {
