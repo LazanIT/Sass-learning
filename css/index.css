@@ -2976,7 +2976,7 @@ h5 p {
   margin: 0.75rem;
 }
 .card .card-title {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding-bottom: 0.75rem;
   font-weight: bold;
 }
@@ -3548,34 +3548,7 @@ h5 p {
   background-color: light-cimp(white);
 }
 
-.navbar .container,
-.navbar-white .container,
-.navbar-black .container,
-.navbar-gray .container,
-.navbar-purple .container,
-.navbar-orange .container,
-.navbar-green .container,
-.navbar-yellow .container,
-.navbar-red .container,
-.navbar-blue .container,
-.navbar-info .container,
-.navbar-error .container,
-.navbar-secondary .container,
-.navbar-primary .container,
-.navbar,
-.navbar-white,
-.navbar-black,
-.navbar-gray,
-.navbar-purple,
-.navbar-orange,
-.navbar-green,
-.navbar-yellow,
-.navbar-red,
-.navbar-blue,
-.navbar-info,
-.navbar-error,
-.navbar-secondary,
-.navbar-primary {
+.navbar .container, .navbar-white .container, .navbar-black .container, .navbar-gray .container, .navbar-purple .container, .navbar-orange .container, .navbar-green .container, .navbar-yellow .container, .navbar-red .container, .navbar-blue .container, .navbar-info .container, .navbar-error .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-white, .navbar-black, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
   width: 100%;
   display: flex;
   align-items: center;
@@ -3583,37 +3556,11 @@ h5 p {
   box-sizing: border-box;
 }
 
-.navbar,
-.navbar-white,
-.navbar-black,
-.navbar-gray,
-.navbar-purple,
-.navbar-orange,
-.navbar-green,
-.navbar-yellow,
-.navbar-red,
-.navbar-blue,
-.navbar-info,
-.navbar-error,
-.navbar-secondary,
-.navbar-primary {
+.navbar, .navbar-white, .navbar-black, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
   padding: 0.75rem 1.5rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-.navbar .site-title,
-.navbar-white .site-title,
-.navbar-black .site-title,
-.navbar-gray .site-title,
-.navbar-purple .site-title,
-.navbar-orange .site-title,
-.navbar-green .site-title,
-.navbar-yellow .site-title,
-.navbar-red .site-title,
-.navbar-blue .site-title,
-.navbar-info .site-title,
-.navbar-error .site-title,
-.navbar-secondary .site-title,
-.navbar-primary .site-title {
+.navbar .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-gray .site-title, .navbar-purple .site-title, .navbar-orange .site-title, .navbar-green .site-title, .navbar-yellow .site-title, .navbar-red .site-title, .navbar-blue .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
   font-size: 1.5rem;
 }
 .navbar-primary {
