@@ -3,7 +3,7 @@
 
 // Theme colors variables :
 
-$primary: #316dee;
+$primary: #316dee !default; // Dodavanjem default key world funckije omogucavamo da kasnije korisnik u nekom drugom fajlu menja sadrzaj varijable
 $secondary: rgb(24, 243, 24);
 $error: rgb(255, 13, 13);
 $info: rgb(255, 255, 59);
